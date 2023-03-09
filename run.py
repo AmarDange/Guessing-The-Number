@@ -2,7 +2,7 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import random
-def guess(x)
+def guess(x):
     random_number = random.randint(1, x)
     user_guess = None
     guess_count = 0
@@ -15,4 +15,4 @@ def guess(x)
             print("Sorry, It's too low. Try Again")
         print(f"Congrats... You Guess The Correct Number in {guess_count} times.")
 
-     guess(100)      
+guess(101) 
