@@ -2,6 +2,16 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import random
+
+print("Welcome to my computer quiz")
+
+playing = input("Do you want to play?")
+
+if playing !="yes":
+    quit()
+
+print("Okay! Let's play! :")
+
 def guess(x):
     random_number = random.randint(1, x)
     user_guess = None
