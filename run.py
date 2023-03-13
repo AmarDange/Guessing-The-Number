@@ -2,15 +2,19 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import random
+import pyfiglet
 
-print("Welcome to my number quiz game")
+print("Welcome to 'NUMBER GUESSING GAME' ")
+
+print(" please Enter your name :  ")
+
 
 playing = input("Do you want to play?")
 
 if playing !="yes":
     quit()
 
-print("Okay! Let's play! :")
+print("Okay! Let's start to  play game ! :")
 
 def guess(x):
     random_number = random.randint(1, x)
