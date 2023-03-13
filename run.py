@@ -3,7 +3,7 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import random
 
-print("Welcome to my computer quiz")
+print("Welcome to my number quiz game")
 
 playing = input("Do you want to play?")
 
